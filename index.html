@@ -1,1 +1,45 @@
-Hello World
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simon Thiboutôt</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Simon Thiboutôt étudiant en informatique au cégep Garneau à Québec, intéressé par de développement d'app. web et les technos.">
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>Simon Thiboutôt</h1>
+	</header>	
+	<p>
+		Je suis un étudiant en informatique au cégep Garneau à Québec, intéressé par développement d'applications web. Je sais présentement lire et parler plusieurs langages, dont <strong>JavaScript</strong>, <strong>PHP</strong> et <strong>Ruby</strong> que j'apprends progressivement à maîtriser.
+	</p>
+	<p>
+		 Je joue de la guitare électrique et acoustique dans mes temps libres. Je suis un fan du groupe de rock anglais <a href="http://fr.wikipedia.org/wiki/Radiohead">Radiohead</a> qui est une source d'inspiration pour moi.
+	</p>
+	<div class="project">
+		<h3>BouffeBouffe</h3>
+		<p>
+			Application web conçue par <a href="https://twitter.com/akimqc">Akim Couture</a> et moi lors du défi <a href="http://hackquebec.com/">Hack Québec</a> 2012. BouffeBouffe trouve les restaurants près de vous encore ouverts et vous donne l'itinéraire pour vous y rendre, pratique lorsqu'il est tard et qu'on ne sait plus où aller manger. Voici les prix remportés : <strong>«Meilleure application utilitaire»</strong>, <strong>«Meilleure application conçue par des étudiants»</strong>, <strong>«Prix du public, meilleure application»</strong> ainsi que <strong>«Meilleures applications utilisant l’API de YellowAPI»</strong>. <i>Démo v2.0 disponible sous peu.</i>
+		</p>
+		<p>
+			J'ai d'autres projets à venir, n'attendant qu'un peu de temps, de code et de sueur avant d'être concrétisés.
+		</p>
+	</div>
+	<footer>
+		<a id="mailto" href="">Envoyez moi un email</a> <br>
+		"salut" + [arobase] + "simonthiboutot" + [point] + "com"
+	</footer>
+</div>
+<div id="version">0.1</div>
+<script type="text/javascript">
+	window.addEventListener('load', function () {
+		var mailto = document.getElementById('mailto');
+		mailto.addEventListener('click', function (e) {
+			// open the mailto
+			window.location = ("mailto:salut" + String.fromCharCode(64) + "simonthiboutot.com");
+			e.preventDefault();
+		}, false);
+	}, false);
+</script>
+</body>
+</html>
