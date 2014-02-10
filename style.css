@@ -2,18 +2,29 @@
 /*
 	font-family: 'Sintony', sans-serif;
 */
-
 body {
+	margin: 0;
+	padding: 0;
 	font-family: 'Sintony', sans-serif;
+	background-color: #FCFCED;
+	color: black;
+
 }
 header {
 	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 45px;
+	text-align: center;
+}
+header h1 {
+	margin-bottom: 6px;
+	font-size: 2.6em;
+}
+header a {
+	font-size: 1.2em;
 }
 .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 20px;
+	margin: 50px auto;
+	padding: 20px 2px;	
 	max-width: 600px;
 }
 .project {
@@ -22,10 +33,15 @@ header {
 p {
 	text-align: justify;
 }
-h1{
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 2.5em;
+a {
+	color: #E46100;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #BA4F00;
 }
 footer {
 	font-size: 0.8em;
@@ -46,7 +62,9 @@ footer {
 	text-align: center;
 }
 #version {
-	color: #5E5E5E;
+	color: black;
 	float: right;
 	font-size: 0.75em;
+	padding-right: 5px;
+	padding-bottom: 3px;
 }
