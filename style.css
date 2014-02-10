@@ -50,10 +50,10 @@ footer {
 	padding-bottom: 40px;
 }
 #error-404 {
+	text-align: center;
 	max-width: 500px;
 	height: 500px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0px auto;
 }
 #error-404 h1 {
 	font-size: 8em;
