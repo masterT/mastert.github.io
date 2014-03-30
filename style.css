@@ -12,7 +12,7 @@ body {
 }
 header {
 	padding-top: 50px;
-	padding-bottom: 45px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 header h1 {
@@ -21,6 +21,15 @@ header h1 {
 }
 header a {
 	font-size: 1.2em;
+}
+#social{
+	padding: 0;
+}
+#social li {
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .container {
 	margin: 50px auto;
