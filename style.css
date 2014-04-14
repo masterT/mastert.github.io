@@ -11,7 +11,7 @@ body {
 
 }
 header {
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -24,6 +24,7 @@ header a {
 }
 #social{
 	padding: 0;
+	margin: 0;
 }
 #social li {
 	display: inline-block;
@@ -32,8 +33,8 @@ header a {
 	padding-right: 10px;
 }
 .container {
-	margin: 50px auto;
-	padding: 20px 2px;	
+	margin: 10px auto;
+	padding: 10px 7px;	
 	max-width: 600px;
 }
 .project {
@@ -55,7 +56,7 @@ a:active {
 footer {
 	font-size: 0.8em;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 }
 #error-404 {
