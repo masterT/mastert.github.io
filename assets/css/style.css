@@ -1,47 +1,68 @@
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
-
 body {
-	margin: 0 10px 0 10px;
-	padding: 0;
-	font-family: 'Inconsolata', sans-serif;
-	color: black;
-	background-color: rgb(66, 118, 168);
+  margin: 0; padding: 0;
+  font-family: 'Sintony', sans-serif;
 }
-#container{
-	background: rgb(255, 255, 243);
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin: 25px auto 25px auto;
-	padding: 0px 25px 0px 25px; 
-	border: 1px solid black;
+
+.container{ 
+  max-width: 800px;
+  margin: auto;
+  padding: 0px 4px;
 }
-#container > footer {
-	color: red;
+
+a {
+  color: inherit; 
+  transition-duration: 0.4s;
 }
-header, footer{
-	margin: 25px 0 25px 0;
+
+a:hover {
+  transition-duration: 0.4s;
+  color: #050592;
 }
-h1{
-	font-weight: 500;
-	margin: 25px 0 25px 0;
+
+header {
+  background-image: linear-gradient(to right, #DF881C, #2240D4);
+  text-align: center;
+  background-position: 0% 92%;  
 }
-p{
-	margin: 25px 0 25px 0;
+
+header p {
+  margin: 5px 0px;
 }
+
+header > div {
+  overflow: auto;
+  color: white;
+}
+
+header > div > div {
+  margin: 10% 0;
+}
+
+header a{
+  color: inherit;
+}
+
 #social{
-	padding: 0;
-	margin: 25px 0 25px 0;
+  padding: 0;
+  margin: 25px 0 25px 0;
+  text-align: center;
 }
+
 #social li {
-	display: inline-block;
-	text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 5% 0 5%;
 }
-a:visited{
-	color: rgb(0, 0, 238);	
+
+a {
+  color: #2C36F9
 }
-#footer {
-	padding: 10px 0 10px 0;
-	text-align: center;
-	font-size: 0.8em;
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;  
+  background-color: rgb(243, 242, 247);
+  text-align: center;
 }
