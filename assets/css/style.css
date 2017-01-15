@@ -3,14 +3,14 @@ body {
   font-family: 'Sintony', sans-serif;
 }
 
-.container{ 
+.container{
   max-width: 800px;
   margin: auto;
-  padding: 0px 4px;
+  padding: 0px 5px;
 }
 
 a {
-  color: inherit; 
+  color: inherit;
   transition-duration: 0.4s;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 header {
   background-image: linear-gradient(to right, #DF881C, #2240D4);
   text-align: center;
-  background-position: 0% 92%;  
+  background-position: 0% 92%;
 }
 
 header p {
@@ -54,15 +54,33 @@ header a{
   margin: 0 5% 0 5%;
 }
 
+.content {
+  margin-bottom: 56px;
+}
+
+.projects {}
+.project {
+  margin-bottom: 25px;
+}
+.project h3 {
+  margin: 10px 0;
+}
+.project p {
+  margin: 10px 0;
+}
+.project .links a {
+  margin-right: 2px;
+}
+
 a {
   color: #2C36F9
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 10px 0;  
+  padding: 10px 0;
   background-color: rgb(243, 242, 247);
   text-align: center;
 }
