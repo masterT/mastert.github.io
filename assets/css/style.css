@@ -19,26 +19,28 @@ a:hover {
   color: #050592;
 }
 
-header {
+main {
   background-image: linear-gradient(to right, #DF881C, #2240D4);
   text-align: center;
   background-position: 0% 92%;
+  display: flex;
+  height: 100vh
 }
 
-header p {
+main p {
   margin: 5px 0px;
 }
 
-header > div {
+main > div {
   overflow: auto;
   color: white;
 }
 
-header > div > div {
+main > div > div {
   margin: 10% 0;
 }
 
-header a{
+main a{
   color: inherit;
 }
 
@@ -83,4 +85,8 @@ footer {
   padding: 10px 0;
   background-color: rgb(243, 242, 247);
   text-align: center;
+}
+
+.card {
+  background-color: rgb(243, 242, 247);
 }
