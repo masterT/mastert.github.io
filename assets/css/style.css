@@ -20,7 +20,7 @@ a:hover {
 }
 
 main {
-  background-image: linear-gradient(to right, #DF881C, #2240D4);
+  background-color: #2240D4;
   text-align: center;
   background-position: 0% 92%;
   display: flex;
