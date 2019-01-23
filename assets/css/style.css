@@ -53,7 +53,7 @@ main a{
 #social li {
   display: inline-block;
   text-decoration: none;
-  margin: 0 5% 0 5%;
+  margin: 0.5em;
 }
 
 .content {
